@@ -1,0 +1,29 @@
+/* Responsive Carousel */
+@media only screen and (max-width: 767px) and (min-width: 350px){
+    .carousel img{
+        height:300px !important;
+    }
+    .carousel h5{
+        font-size: 15px !important;
+        font-weight: 500 !important;
+    }
+    .carousel p{
+        font-size: 10px !important;
+    }
+    .carousel button{
+        font-size: 10px !important;
+        padding: 5px !important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .carousel h5{
+        font-size: 25px !important;
+        font-weight: 600 !important;
+    }
+    .carousel p{
+        font-size: 15px !important;
+    }
+    .carousel button{
+        font-size: 15px !important;
+    }
+}
